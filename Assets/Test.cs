@@ -71,7 +71,7 @@ public class Test : MonoBehaviour {
         lastboss.Attack();
         //防御用の関数を呼び出す
         lastboss.Defence(3);
-        //魔法用の関数を呼び出す
+        //魔法用の関数を11回呼び出す
         for(int i = 0; i < 11; i++)
         {
             lastboss.Magic();
